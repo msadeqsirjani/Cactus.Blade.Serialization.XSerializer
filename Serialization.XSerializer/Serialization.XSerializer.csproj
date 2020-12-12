@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Cactus.Blade.Serialization.XSerializer</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.2.0</Version>
+    <Authors>Mohammad Sadeq Sirjani</Authors>
+    <Product>Cactus</Product>
+    <Copyright>@CopyRight 2020</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>cactus.png</PackageIcon>
+    <NeutralLanguage>C#</NeutralLanguage>
+    <PackageProjectUrl>https://github.com/mohammadsadeqsirjani/Cactus.Blade.Serialization.XSerializer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mohammadsadeqsirjani/Cactus.Blade.Serialization.XSerializer</RepositoryUrl>
+    <RepositoryType>https://github.com/mohammadsadeqsirjani/Cactus.Blade.Serialization.XSerializer</RepositoryType>
+    <PackageReleaseNotes>A simple serialization abstraction with To and From extensions.</PackageReleaseNotes>
+    <Description>A simple serialization abstraction with To and From extensions.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cactus.Blade.Serialization" Version="1.2.0" />
+    <PackageReference Include="System.Runtime.Serialization.Xml" Version="4.3.0" />
+    <PackageReference Include="XSerializer" Version="0.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Image\cactus.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
