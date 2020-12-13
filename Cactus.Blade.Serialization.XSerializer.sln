@@ -5,11 +5,15 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{F3AB6580-D888-4631-8289-AB4CCC8A7311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization.XSerializer", "Serialization.XSerializer\Serialization.XSerializer.csproj", "{7BD651D9-6EBD-41D7-8104-46F526D60EA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialization.XSerializer", "Serialization.XSerializer\Serialization.XSerializer.csproj", "{7BD651D9-6EBD-41D7-8104-46F526D60EA9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6038B54B-1029-4643-8837-0E9A64F93C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization.XSerializer.Test", "Serialization.XSerializer.Test\Serialization.XSerializer.Test.csproj", "{68A995F9-9F9A-41F8-AE6E-FF196C620AAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialization.XSerializer.Test", "Serialization.XSerializer.Test\Serialization.XSerializer.Test.csproj", "{68A995F9-9F9A-41F8-AE6E-FF196C620AAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{B4E467E7-DECF-4563-B1C2-24D38D827AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization.XSerializer.Sample", "Serialization.XSerializer.Sample\Serialization.XSerializer.Sample.csproj", "{044EFD82-894B-4EF9-9866-1044DD2161F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{68A995F9-9F9A-41F8-AE6E-FF196C620AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A995F9-9F9A-41F8-AE6E-FF196C620AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A995F9-9F9A-41F8-AE6E-FF196C620AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044EFD82-894B-4EF9-9866-1044DD2161F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044EFD82-894B-4EF9-9866-1044DD2161F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044EFD82-894B-4EF9-9866-1044DD2161F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044EFD82-894B-4EF9-9866-1044DD2161F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7BD651D9-6EBD-41D7-8104-46F526D60EA9} = {F3AB6580-D888-4631-8289-AB4CCC8A7311}
 		{68A995F9-9F9A-41F8-AE6E-FF196C620AAB} = {6038B54B-1029-4643-8837-0E9A64F93C73}
+		{044EFD82-894B-4EF9-9866-1044DD2161F4} = {B4E467E7-DECF-4563-B1C2-24D38D827AC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A2B4949-AB5C-4699-ACF1-65A640A71894}
